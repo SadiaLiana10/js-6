@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin:0;
+    outline:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("./illustrator-planet-ai-art-4k-84-1920x1080.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    width:400px;
+    height:440px;
+    background: transparent;
+    border: 5px solid #fdb9fcb7;
+    border-radius: 20px;
+    backdrop-filter:blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper .form-box{
+    width:100%;
+    padding:40px;
+}
+.form-box h2{
+    font-size: 50px;
+    color: #000;
+    text-align: center;
+}
+.input-box{
+    width:100%;
+    height:50px;
+    border-bottom: 2px solid #FDB9FC;
+    margin:30px 0;
+    position: relative;
+}
+.input-box input{
+    width:100%;
+    height:100%;
+    background: transparent;
+    border:none;
+    color: #FDB9FC;
+}
+.input-box .icon,.input-box .btn,.input-box .btn2{
+    position: absolute;
+    right:8px;
+    top:20px;   
+}
+.input-box .btn2{
+    display:none;
+}
+button{
+   width:100%;
+   height:40px;
+   border-radius: 30px;
+   font-size: 16px;
+   font-weight: bold;
+   border:none;
+   text-transform: capitalize;
+   box-shadow: 0 0 5px #FDB9FC;
+   background-color: #FDB9FC;
+   transition: .2s;
+}
+button:hover{
+    box-shadow: 0 0 10px #fff;
+}
+::placeholder{
+    color:#FDB9FC;
+}
